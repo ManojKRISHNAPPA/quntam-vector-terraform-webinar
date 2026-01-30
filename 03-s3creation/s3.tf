@@ -10,3 +10,7 @@ resource "aws_s3_bucket" "example_bucket" {
 output "bucket_name" {
   value = aws_s3_bucket.example_bucket.bucket
 }
+
+output "bucker" {
+  value = ""
+}
